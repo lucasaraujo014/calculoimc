@@ -104,3 +104,7 @@ function montarTabela(listaDeCadastrados) {
   });
   tabela.innerHTML = templete;
 }
+function deletarRegistros() {
+  localStorage.clear();
+  window.location.reload();
+}
